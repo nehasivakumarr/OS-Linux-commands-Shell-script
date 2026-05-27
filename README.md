@@ -85,16 +85,6 @@ cut -c1-3 file11
 
 ![c8](pictures/c8.png)
 
-
-cut -d "|" -f 1 file22
-## OUTPUT
-
-
-
-cut -d "|" -f 2 file22
-## OUTPUT
-
-
 cat < newfile 
 ```
 Hello world
@@ -108,12 +98,6 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 ![c11](pictures/c11.png)
-
-
-grep hello newfile 
-## OUTPUT
-
-
 
 
 grep -v hello newfile 
@@ -166,12 +150,6 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 ![c18](pictures/c18.png)
-
-
-egrep -w '(H|h)ello' newfile 
-## OUTPUT
-
-
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
